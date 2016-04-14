@@ -1,0 +1,317 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DBADA1EB1CC0287D000AE567 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBADA1EA1CC0287D000AE567 /* AppDelegate.swift */; };
+		DBADA1ED1CC0287D000AE567 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBADA1EC1CC0287D000AE567 /* ViewController.swift */; };
+		DBADA1F01CC0287D000AE567 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DBADA1EE1CC0287D000AE567 /* Main.storyboard */; };
+		DBADA1F21CC0287D000AE567 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DBADA1F11CC0287D000AE567 /* Assets.xcassets */; };
+		DBADA1F51CC0287D000AE567 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DBADA1F31CC0287D000AE567 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DBADA1E71CC0287D000AE567 /* vehicleMaintenance.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = vehicleMaintenance.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DBADA1EA1CC0287D000AE567 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DBADA1EC1CC0287D000AE567 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DBADA1EF1CC0287D000AE567 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DBADA1F11CC0287D000AE567 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DBADA1F41CC0287D000AE567 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DBADA1F61CC0287D000AE567 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DBADA1E41CC0287D000AE567 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DBADA1DE1CC0287D000AE567 = {
+			isa = PBXGroup;
+			children = (
+				DBADA1E91CC0287D000AE567 /* vehicleMaintenance */,
+				DBADA1E81CC0287D000AE567 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DBADA1E81CC0287D000AE567 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DBADA1E71CC0287D000AE567 /* vehicleMaintenance.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DBADA1E91CC0287D000AE567 /* vehicleMaintenance */ = {
+			isa = PBXGroup;
+			children = (
+				DBADA1FE1CC028E7000AE567 /* View */,
+				DBADA1FD1CC028DB000AE567 /* Model */,
+				DBADA1FC1CC028B1000AE567 /* Controller */,
+				DBADA1EA1CC0287D000AE567 /* AppDelegate.swift */,
+				DBADA1F11CC0287D000AE567 /* Assets.xcassets */,
+				DBADA1F61CC0287D000AE567 /* Info.plist */,
+			);
+			path = vehicleMaintenance;
+			sourceTree = "<group>";
+		};
+		DBADA1FC1CC028B1000AE567 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				DBADA1EC1CC0287D000AE567 /* ViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		DBADA1FD1CC028DB000AE567 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		DBADA1FE1CC028E7000AE567 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				DBADA1EE1CC0287D000AE567 /* Main.storyboard */,
+				DBADA1F31CC0287D000AE567 /* LaunchScreen.storyboard */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DBADA1E61CC0287D000AE567 /* vehicleMaintenance */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DBADA1F91CC0287D000AE567 /* Build configuration list for PBXNativeTarget "vehicleMaintenance" */;
+			buildPhases = (
+				DBADA1E31CC0287D000AE567 /* Sources */,
+				DBADA1E41CC0287D000AE567 /* Frameworks */,
+				DBADA1E51CC0287D000AE567 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = vehicleMaintenance;
+			productName = vehicleMaintenance;
+			productReference = DBADA1E71CC0287D000AE567 /* vehicleMaintenance.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DBADA1DF1CC0287D000AE567 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = tallerSoftware;
+				TargetAttributes = {
+					DBADA1E61CC0287D000AE567 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+				};
+			};
+			buildConfigurationList = DBADA1E21CC0287D000AE567 /* Build configuration list for PBXProject "vehicleMaintenance" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DBADA1DE1CC0287D000AE567;
+			productRefGroup = DBADA1E81CC0287D000AE567 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DBADA1E61CC0287D000AE567 /* vehicleMaintenance */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DBADA1E51CC0287D000AE567 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBADA1F51CC0287D000AE567 /* LaunchScreen.storyboard in Resources */,
+				DBADA1F21CC0287D000AE567 /* Assets.xcassets in Resources */,
+				DBADA1F01CC0287D000AE567 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DBADA1E31CC0287D000AE567 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBADA1ED1CC0287D000AE567 /* ViewController.swift in Sources */,
+				DBADA1EB1CC0287D000AE567 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DBADA1EE1CC0287D000AE567 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DBADA1EF1CC0287D000AE567 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DBADA1F31CC0287D000AE567 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DBADA1F41CC0287D000AE567 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DBADA1F71CC0287D000AE567 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DBADA1F81CC0287D000AE567 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DBADA1FA1CC0287D000AE567 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = vehicleMaintenance/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tallerSoftware.vehicleMaintenance;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DBADA1FB1CC0287D000AE567 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = vehicleMaintenance/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tallerSoftware.vehicleMaintenance;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DBADA1E21CC0287D000AE567 /* Build configuration list for PBXProject "vehicleMaintenance" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DBADA1F71CC0287D000AE567 /* Debug */,
+				DBADA1F81CC0287D000AE567 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DBADA1F91CC0287D000AE567 /* Build configuration list for PBXNativeTarget "vehicleMaintenance" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DBADA1FA1CC0287D000AE567 /* Debug */,
+				DBADA1FB1CC0287D000AE567 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DBADA1DF1CC0287D000AE567 /* Project object */;
+}
