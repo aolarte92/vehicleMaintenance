@@ -3,6 +3,7 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
         <!--Inicio-->
@@ -23,6 +24,9 @@
                                     <constraint firstAttribute="width" constant="110" id="ijB-nN-GYq"/>
                                 </constraints>
                                 <state key="normal" title="Mis vehiculos"/>
+                                <connections>
+                                    <segue destination="Aa3-5B-Z1Q" kind="show" id="nMx-kH-sHM"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Hmc-hA-loB">
                                 <rect key="frame" x="245" y="259" width="110" height="30"/>
@@ -68,6 +72,7 @@
             </objects>
             <point key="canvasLocation" x="1117" y="349"/>
         </scene>
+<<<<<<< HEAD
         <!--Adicionar carro-->
         <scene sceneID="yHT-eX-Nbg">
             <objects>
@@ -264,6 +269,64 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="d0i-a7-OSU" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1819" y="349"/>
+=======
+        <!--Lista de vehículos-->
+        <scene sceneID="C5P-Gp-KJ2">
+            <objects>
+                <viewController automaticallyAdjustsScrollViewInsets="NO" id="Aa3-5B-Z1Q" customClass="listvehicleViewController" customModule="vehicleMaintenance" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="N7B-Eq-oDm"/>
+                        <viewControllerLayoutGuide type="bottom" id="RBB-aI-W9I"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="3pl-wp-DwP">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="33" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="rUE-Wt-WIv">
+                                <rect key="frame" x="0.0" y="72" width="600" height="528"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" textLabel="uJh-qa-NHa" detailTextLabel="iPI-Qe-97u" rowHeight="33" style="IBUITableViewCellStyleSubtitle" id="dUU-Tj-OKi">
+                                        <rect key="frame" x="0.0" y="28" width="600" height="33"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="dUU-Tj-OKi" id="Cs7-EH-lpJ">
+                                            <rect key="frame" x="0.0" y="0.0" width="600" height="32"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="uJh-qa-NHa">
+                                                    <rect key="frame" x="15" y="-1" width="32" height="20"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Detail" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="iPI-Qe-97u">
+                                                    <rect key="frame" x="15" y="19" width="31" height="14"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                </prototypes>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailingMargin" secondItem="rUE-Wt-WIv" secondAttribute="trailing" constant="-20" id="Yeq-cg-Epq"/>
+                            <constraint firstItem="rUE-Wt-WIv" firstAttribute="top" secondItem="N7B-Eq-oDm" secondAttribute="bottom" constant="8" id="bcM-9i-aBw"/>
+                            <constraint firstItem="RBB-aI-W9I" firstAttribute="top" secondItem="rUE-Wt-WIv" secondAttribute="bottom" id="hqc-p8-OKI"/>
+                            <constraint firstItem="rUE-Wt-WIv" firstAttribute="leading" secondItem="3pl-wp-DwP" secondAttribute="leadingMargin" constant="-20" id="nhO-JR-H8G"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Lista de vehículos" id="l4X-FS-r5M"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="04a-WH-yXa" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1789" y="349"/>
+>>>>>>> d7dbabe53869ec6629be5a9de7991ea696c84ec9
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="WSr-Oh-seV">
