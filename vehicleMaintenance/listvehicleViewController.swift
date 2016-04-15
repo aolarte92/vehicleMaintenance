@@ -8,12 +8,22 @@
 
 import UIKit
 
-class listvehicleViewController: UIViewController {
+class listvehicleViewController: UIViewController, UITableViewDataSource, UITableViewDelegate
+ {
+    
+    var vehicles = [Vehicle]()
+    let cellIdentifier = "vehicleCell"
+
+    
+    @IBOutlet weak var tableView: UITableView!
+
+
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        vehicles = Vehicle.vehicles()
         // Do any additional setup after loading the view.
+       
     }
 
     override func didReceiveMemoryWarning() {
@@ -21,15 +31,36 @@ class listvehicleViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
-
-    /*
     // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
+    
+    
+    // MARK: - UITableViewDataSource
+  
+    func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return vehicles.count
     }
-    */
-
+    
+    func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
+        let cell = tableView.dequeueReusableCellWithIdentifier(cellIdentifier)
+        let vehicle = vehicles[indexPath.row]
+        cell?.textLabel?.numberOfLines = 0
+        cell?.textLabel?.text = vehicle.mark
+        cell?.detailTextLabel?.text = String(vehicle.kilometers!)
+        
+        return cell!
+    }
+    
+    // MARK: - UITableViewDelegate
+    
 }
+
+    
+    
+    
+
+
+
+    
+
+
+
