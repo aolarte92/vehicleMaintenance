@@ -13,7 +13,7 @@ class Vehicle {
     
     // MARK: - Properties
     var model:String?
-    var mark:String??
+    var mark:String?
     var kilometers:Int?
     var oilchange:String?
     var tank:Int?
