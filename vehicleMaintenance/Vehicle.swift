@@ -41,7 +41,7 @@ class Vehicle {
         var data = [Vehicle]()
         let rawData = [
             ["model":"2016", "mark":"Ferrari", "kilometers":850, "oilchange": "1 de abril de 2016", "tank":70,"soat":"1 de febrero de 2017","tecno":"2 de marzo de 2017"],
-            ["model":"1999", "mark":"Mazda", "kilometers":150000, "oilchange": "14 de abril de 2016", "tank":40,"soat":"1 de mayo de 2016","tecno":"2 de marzo de 2016"],
+            ["model":"1999", "mark":"Mazda", "kilometers":150000, "oilchange": "14 de abril de 2016", "tank":40,"soat":"1 de mayo de 2016","tecno":"2 de marzo de 2016"]
 
         ]
         

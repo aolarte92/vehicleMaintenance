@@ -14,19 +14,28 @@ class detailVehiculeViewController: UIViewController {
    
     @IBOutlet weak var model: UILabel!
     
-    @IBOutlet weak var mark: UILabel!
+    @IBOutlet weak var make: UILabel!
     
-    @IBOutlet weak var kilometers: UILabel!
+    @IBOutlet weak var kilometer: UILabel!
     
     @IBOutlet weak var oilchange: UILabel!
     
-    @IBOutlet weak var tenco: UILabel!
+    @IBOutlet weak var tecno: UILabel!
     
     @IBOutlet weak var soat: UILabel!
     
+    
+    var modelo = Vehicle()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        self.model.text = modelo.model
+        self.make.text = modelo.mark
+        self.kilometer.text = String (modelo.kilometers!)
+        self.oilchange.text = modelo.oilchange
+        self.tecno.text = modelo.tecno
+        self.soat.text = modelo.soat
+        
         // Do any additional setup after loading the view.
     }
 

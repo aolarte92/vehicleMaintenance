@@ -32,7 +32,16 @@ class listvehicleViewController: UIViewController, UITableViewDataSource, UITabl
     }
     
     // MARK: - Navigation
+    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
+        if let  detailVC = segue.destinationViewController as?
+            detailVehiculeViewController {
+                if let vehicule = sender as? Vehicle {
+                    detailVC.modelo = vehicule
+                }
+        }
+    }
     
+
     
     // MARK: - UITableViewDataSource
   
@@ -51,6 +60,10 @@ class listvehicleViewController: UIViewController, UITableViewDataSource, UITabl
     }
     
     // MARK: - UITableViewDelegate
+    func tableView(tableView: UITableView, didDeselectRowAtIndexPath indexPath: NSIndexPath) {
+        let vehicle = vehicles[indexPath.row]
+        self.performSegueWithIdentifier("detailvehicle", sender: vehicle)
+    }
     
 }
 
