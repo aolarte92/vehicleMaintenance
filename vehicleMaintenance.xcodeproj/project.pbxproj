@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		066912041CC140AA00C36F47 /* frmVehicleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 066912031CC140AA00C36F47 /* frmVehicleViewController.swift */; };
+		066912061CC1651100C36F47 /* maintenanceGarageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 066912051CC1651100C36F47 /* maintenanceGarageViewController.swift */; };
+		066912081CC16F4200C36F47 /* maintenanceGarage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 066912071CC16F4200C36F47 /* maintenanceGarage.swift */; };
 		4683E5641CC141C5004D1916 /* listvehicleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4683E5631CC141C5004D1916 /* listvehicleViewController.swift */; };
 		4683E5661CC14B3F004D1916 /* Vehicle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4683E5651CC14B3F004D1916 /* Vehicle.swift */; };
 		DBADA1EB1CC0287D000AE567 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBADA1EA1CC0287D000AE567 /* AppDelegate.swift */; };
@@ -19,6 +21,8 @@
 
 /* Begin PBXFileReference section */
 		066912031CC140AA00C36F47 /* frmVehicleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = frmVehicleViewController.swift; sourceTree = "<group>"; };
+		066912051CC1651100C36F47 /* maintenanceGarageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = maintenanceGarageViewController.swift; sourceTree = "<group>"; };
+		066912071CC16F4200C36F47 /* maintenanceGarage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = maintenanceGarage.swift; sourceTree = "<group>"; };
 		4683E5631CC141C5004D1916 /* listvehicleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = listvehicleViewController.swift; sourceTree = "<group>"; };
 		4683E5651CC14B3F004D1916 /* Vehicle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Vehicle.swift; sourceTree = "<group>"; };
 		DBADA1E71CC0287D000AE567 /* vehicleMaintenance.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = vehicleMaintenance.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -76,6 +80,7 @@
 				DBADA1EC1CC0287D000AE567 /* ViewController.swift */,
 				066912031CC140AA00C36F47 /* frmVehicleViewController.swift */,
 				4683E5631CC141C5004D1916 /* listvehicleViewController.swift */,
+				066912051CC1651100C36F47 /* maintenanceGarageViewController.swift */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -84,6 +89,7 @@
 			isa = PBXGroup;
 			children = (
 				4683E5651CC14B3F004D1916 /* Vehicle.swift */,
+				066912071CC16F4200C36F47 /* maintenanceGarage.swift */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -171,8 +177,10 @@
 				4683E5661CC14B3F004D1916 /* Vehicle.swift in Sources */,
 				DBADA1ED1CC0287D000AE567 /* ViewController.swift in Sources */,
 				066912041CC140AA00C36F47 /* frmVehicleViewController.swift in Sources */,
+				066912061CC1651100C36F47 /* maintenanceGarageViewController.swift in Sources */,
 				DBADA1EB1CC0287D000AE567 /* AppDelegate.swift in Sources */,
 				4683E5641CC141C5004D1916 /* listvehicleViewController.swift in Sources */,
+				066912081CC16F4200C36F47 /* maintenanceGarage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
