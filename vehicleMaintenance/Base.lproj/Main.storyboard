@@ -72,7 +72,7 @@
             </objects>
             <point key="canvasLocation" x="1117" y="349"/>
         </scene>
-<<<<<<< HEAD
+
         <!--Adicionar carro-->
         <scene sceneID="yHT-eX-Nbg">
             <objects>
@@ -269,7 +269,7 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="d0i-a7-OSU" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1819" y="349"/>
-=======
+
         <!--Lista de vehículos-->
         <scene sceneID="C5P-Gp-KJ2">
             <objects>
@@ -326,7 +326,7 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="04a-WH-yXa" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1789" y="349"/>
->>>>>>> d7dbabe53869ec6629be5a9de7991ea696c84ec9
+
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="WSr-Oh-seV">

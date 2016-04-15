@@ -7,12 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-<<<<<<< HEAD
+
 		066912041CC140AA00C36F47 /* frmVehicleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 066912031CC140AA00C36F47 /* frmVehicleViewController.swift */; };
-=======
+
 		4683E5641CC141C5004D1916 /* listvehicleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4683E5631CC141C5004D1916 /* listvehicleViewController.swift */; };
 		4683E5661CC14B3F004D1916 /* Vehicle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4683E5651CC14B3F004D1916 /* Vehicle.swift */; };
->>>>>>> d7dbabe53869ec6629be5a9de7991ea696c84ec9
+
 		DBADA1EB1CC0287D000AE567 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBADA1EA1CC0287D000AE567 /* AppDelegate.swift */; };
 		DBADA1ED1CC0287D000AE567 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBADA1EC1CC0287D000AE567 /* ViewController.swift */; };
 		DBADA1F01CC0287D000AE567 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DBADA1EE1CC0287D000AE567 /* Main.storyboard */; };
@@ -21,12 +21,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-<<<<<<< HEAD
 		066912031CC140AA00C36F47 /* frmVehicleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = frmVehicleViewController.swift; sourceTree = "<group>"; };
-=======
 		4683E5631CC141C5004D1916 /* listvehicleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = listvehicleViewController.swift; sourceTree = "<group>"; };
 		4683E5651CC14B3F004D1916 /* Vehicle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Vehicle.swift; sourceTree = "<group>"; };
->>>>>>> d7dbabe53869ec6629be5a9de7991ea696c84ec9
 		DBADA1E71CC0287D000AE567 /* vehicleMaintenance.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = vehicleMaintenance.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DBADA1EA1CC0287D000AE567 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DBADA1EC1CC0287D000AE567 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -80,11 +77,8 @@
 			isa = PBXGroup;
 			children = (
 				DBADA1EC1CC0287D000AE567 /* ViewController.swift */,
-<<<<<<< HEAD
 				066912031CC140AA00C36F47 /* frmVehicleViewController.swift */,
-=======
 				4683E5631CC141C5004D1916 /* listvehicleViewController.swift */,
->>>>>>> d7dbabe53869ec6629be5a9de7991ea696c84ec9
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -92,7 +86,6 @@
 		DBADA1FD1CC028DB000AE567 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				4683E5651CC14B3F004D1916 /* Vehicle.swift */,
 			);
 			name = Model;
 			sourceTree = "<group>";
