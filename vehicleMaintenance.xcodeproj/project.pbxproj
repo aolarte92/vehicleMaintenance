@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		066912041CC140AA00C36F47 /* frmVehicleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 066912031CC140AA00C36F47 /* frmVehicleViewController.swift */; };
 		DBADA1EB1CC0287D000AE567 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBADA1EA1CC0287D000AE567 /* AppDelegate.swift */; };
 		DBADA1ED1CC0287D000AE567 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBADA1EC1CC0287D000AE567 /* ViewController.swift */; };
 		DBADA1F01CC0287D000AE567 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DBADA1EE1CC0287D000AE567 /* Main.storyboard */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		066912031CC140AA00C36F47 /* frmVehicleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = frmVehicleViewController.swift; sourceTree = "<group>"; };
 		DBADA1E71CC0287D000AE567 /* vehicleMaintenance.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = vehicleMaintenance.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DBADA1EA1CC0287D000AE567 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DBADA1EC1CC0287D000AE567 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -68,6 +70,7 @@
 			isa = PBXGroup;
 			children = (
 				DBADA1EC1CC0287D000AE567 /* ViewController.swift */,
+				066912031CC140AA00C36F47 /* frmVehicleViewController.swift */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -160,6 +163,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DBADA1ED1CC0287D000AE567 /* ViewController.swift in Sources */,
+				066912041CC140AA00C36F47 /* frmVehicleViewController.swift in Sources */,
 				DBADA1EB1CC0287D000AE567 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -310,6 +314,7 @@
 				DBADA1FB1CC0287D000AE567 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
