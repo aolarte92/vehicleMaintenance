@@ -28,18 +28,8 @@
                                     <segue destination="Aa3-5B-Z1Q" kind="show" id="nMx-kH-sHM"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Hmc-hA-loB">
-                                <rect key="frame" x="245" y="259" width="110" height="30"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="110" id="C21-vk-Nts"/>
-                                </constraints>
-                                <state key="normal" title="Adicionar moto"/>
-                                <connections>
-                                    <segue destination="DYm-1p-z6u" kind="show" id="Ohu-mF-dcb"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="H6d-E9-Do4">
-                                <rect key="frame" x="225" y="334" width="150" height="30"/>
+                                <rect key="frame" x="225" y="334" width="150" height="30"/>ßƒ
                                 <constraints>
                                     <constraint firstAttribute="width" constant="150" id="gqN-hp-PMp"/>
                                 </constraints>
